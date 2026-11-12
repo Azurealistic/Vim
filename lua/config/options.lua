@@ -20,3 +20,13 @@ vim.opt.spell = false
 
 -- System clipboard integration
 vim.opt.clipboard = "unnamedplus"
+
+-- Python LSP and options
+vim.g.lazyvim_python_lsp = "basedpyright"
+vim.g.lazyvim_python_ruff = "ruff"
+
+-- Set up terminal
+vim.opt.shell = "pwsh.exe"
+vim.opt.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command"
+vim.opt.shellquote = '"'
+vim.opt.shellxquote = ""
