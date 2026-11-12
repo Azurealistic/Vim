@@ -6,11 +6,7 @@ return {
       indent = { enabled = false },
     },
   },
-  {
-    "nvim-mini/mini.indentscope",
-    enabled = false,
-  },
-
+  
   {
     "stevearc/conform.nvim",
     opts = function(_, opts)
