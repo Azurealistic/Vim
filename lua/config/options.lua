@@ -6,8 +6,14 @@
 -- Fixes root detection jumping to parent .git folders (e.g. ~/rusty instead of ~/rusty/export_sheet)
 vim.g.root_spec = { "cwd" }
 
--- Four spaces for tabs
+-- Use 4 spaces for indentation
+vim.opt.expandtab = true
+vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+
+-- Don't display invisible characters
+vim.opt.list = false
 
 -- Fast, smooth cursor motion settings (Zed style responsiveness)
 vim.opt.scrolloff = 8

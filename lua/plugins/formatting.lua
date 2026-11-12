@@ -19,9 +19,6 @@ return {
       opts.formatters_by_ft.python = { "ruff_fix", "ruff_organize_imports", "ruff_format" }
       opts.formatters_by_ft.lua = { "stylua" }
       opts.formatters_by_ft.sh = { "shfmt" }
-
-      opts.format_on_save = true
-
       return opts
     end,
   },
