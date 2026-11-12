@@ -6,6 +6,9 @@
 -- Fixes root detection jumping to parent .git folders (e.g. ~/rusty instead of ~/rusty/export_sheet)
 vim.g.root_spec = { "cwd" }
 
+-- Four spaces for tabs
+vim.opt.shiftwidth = 4
+
 -- Fast, smooth cursor motion settings (Zed style responsiveness)
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
@@ -17,4 +20,3 @@ vim.opt.spell = false
 
 -- System clipboard integration
 vim.opt.clipboard = "unnamedplus"
-
