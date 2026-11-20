@@ -39,8 +39,3 @@ vim.opt.shellxquote = ""
 
 -- Allow local config files per project.
 vim.opt.exrc = true
-
--- Wraparound
-vim.opt.wrap = true
-vim.opt.linebreak = true -- wrap at word boundaries, not mid-word
-vim.opt.whichwrap:append("<,>,[,],h,l")
