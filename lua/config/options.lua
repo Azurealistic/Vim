@@ -39,3 +39,6 @@ vim.opt.shellxquote = ""
 
 -- Allow local config files per project.
 vim.opt.exrc = true
+
+-- Wraparound
+vim.opt.wrapscan = true
