@@ -81,8 +81,6 @@ return {
 		priority = 1000
 	},
 
-
-
 	-- Dynamically load last selected theme across Neovim restarts
 	{
 		"LazyVim/LazyVim",
