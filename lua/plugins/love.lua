@@ -2,7 +2,11 @@ return {
     'S1M0N38/love2d.nvim',
     version = '3.*',
     event = 'VeryLazy',
-    opts = {},
+    opts = {
+        path_to_love_bin = "love.exe",
+        output = false,
+        lsp = true
+    },
     keys = {
         { '<leader>v',  '',                     desc = 'LÖVE' },
         { '<leader>vr', '<cmd>Love run<cr>',    desc = 'Run LÖVE' },
