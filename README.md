@@ -1,2 +1,2 @@
-# 💤 LazyVim 
+# LazyVim 
 My configuration for LazyVim.
